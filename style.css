@@ -9,16 +9,26 @@ body
 {
     background-color: #303030;
 }
+.logo
+{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 200px;
+
+}
 #zegar
 {
     color: white;
-	float: left;
+	float: right;
 	font-family: swap, arial;
 	font-size: 70px;
 	text-align: center;
 }
 #wrapper
 {
+    position: relative;
     max-width: 1000px;
     margin: 0 auto;
     background-color: rgb(134, 123, 84);
@@ -70,14 +80,6 @@ img.left
     width: 25%;
     border-radius: 50%;
 }
-img.left1
-{
-    margin: 0 10% 20px 10%;
-    float: left;
-    padding: 0px 10px 10px 0;
-    width: 10%;
-
-}
 article p
 {
     text-align: justify;
@@ -85,4 +87,10 @@ article p
     font-size: 18px;
     padding: 15px 0;
 
+}
+.rectangle
+{
+	width: 960px;
+	margin: 20px;
+	text-align: center;
 }
